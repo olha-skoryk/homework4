@@ -1,14 +1,15 @@
 .card {
-  margin: 15px;
+  margin: 10px;
   margin-right: 0;
   display: inline-block;
-  min-width: 550px;
+  min-width: 500px;
   min-height:350px;
   border-radius: 7px;
   color: white;
   position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   perspective: 400px;
+  padding-left: 5%;
 }
 
 .card::before ,
@@ -67,13 +68,11 @@
 .main,
 .footer {
   font-weight: bold;
-  padding-left: 13%; 
 }
 
 .header {
   padding-top: 13%;
   padding-bottom: 5%;
-  padding-left: 13%; 
   font-size: 2em;
 }
 
